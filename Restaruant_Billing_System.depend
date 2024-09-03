@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1725340171 source:d:\etechprowess\restaruant_billing_system\breakfast.c
+	"rst_billing.h"
+
+1725340168 d:\etechprowess\restaruant_billing_system\rst_billing.h
+
+1725338633 source:d:\etechprowess\restaruant_billing_system\dinner.c
+	"rst_billing.h"
+
+1725335750 source:d:\etechprowess\restaruant_billing_system\dinner_menu.c
+	"rst_billing.h"
+
+1725335551 source:d:\etechprowess\restaruant_billing_system\display.c
+	"rst_billing.h"
+
+1725335884 source:d:\etechprowess\restaruant_billing_system\display_breakfast_bill.c
+	"rst_billing.h"
+
+1725336323 source:d:\etechprowess\restaruant_billing_system\display_breakfast_menu.c
+	"rst_billing.h"
+
+1725336108 source:d:\etechprowess\restaruant_billing_system\display_dinner_bill.c
+	"rst_billing.h"
+
+1725336023 source:d:\etechprowess\restaruant_billing_system\display_lunch_bill.c
+	"rst_billing.h"
+
+1725336957 source:d:\etechprowess\restaruant_billing_system\display_total_words.c
+	"rst_billing.h"
+
+1725335335 source:d:\etechprowess\restaruant_billing_system\lunch.c
+	"rst_billing.h"
+
+1725335648 source:d:\etechprowess\restaruant_billing_system\lunch_menucard.c
+	"rst_billing.h"
+
+1725340189 source:d:\etechprowess\restaruant_billing_system\main.c
+	<stdio.h>
+	<stdlib.h>
+	"rst_billing.h"
+
