@@ -31,9 +31,52 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="breakfast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dinner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dinner_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display_breakfast_bill.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display_breakfast_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display_dinner_bill.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display_lunch_bill.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display_total_words.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lunch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lunch_menucard.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="repeat_breakfast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="repeat_dinner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="repeat_lunch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rst_billing.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

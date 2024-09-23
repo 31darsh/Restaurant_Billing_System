@@ -61,7 +61,7 @@ void bfast(char bfmenu[][100]) //Breakfast Menu Screen
         printf("\nEnter the quantity::");
         scanf("%d",&quantity);
         purchased[code][1]= quantity*bfrate[code][1]; /*purchased[code][1]+ (quantity*bfrate[code][1]);*/
-        total+=purchased[code][ 1];
+        total+=purchased[code][1];
         printf("Total is %d\n\n",total);
         gst=total*0.12;
         cgst=gst/2;
@@ -73,4 +73,19 @@ void bfast(char bfmenu[][100]) //Breakfast Menu Screen
         bfast(bfmenu);
     }
     repeatbf(bfmenu);
+}
+
+void display_bfmenu()
+{
+    printf("                Welcome to FAMOUS Restaurant.          \n ");
+    printf("             +============================+          \n\n");
+    printf("                  $  Breakfast Menu  $ \n\n");
+    printf("  && Please select the food that you would like to purchase. && \n\n");
+    printf("\t\t   [0] Toast - Rs 30.00\n");
+    printf("\t\t   [1] Idli-Vada - Rs 35.00\n");
+    printf("\t\t   [2] Dosa - Rs 40.00\n");
+    printf("\t\t   [3] UPMA Rs 20.00\n");
+    printf("\t\t   [4] Milk  - Rs 15.00\n");
+    printf("\t\t   [5] Tea - Rs 20.00\n");
+    printf("\t\t   [6] Coffee - Rs 30.00\n");
 }
